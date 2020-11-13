@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  CognitoAppClientId: 4pivrjqda2ogtrpgrtg73tijdh
+  CognitoUserPoolArn: arn:aws:cognito-idp:ap-northeast-2:004625312447:userpool/ap-northeast-2_vOprmqGG1
+  CognitoUserPoolDomain: 6team
+  certArn: arn:aws:acm:ap-northeast-2:004625312447:certificate/87591db6-c57b-4a79-97fe-aa7ffa6b4798
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: istio-ingress-config
