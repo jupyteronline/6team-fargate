@@ -1,0 +1,14 @@
+---
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: fargate
+  region: ap-northeast-2
+
+fargateProfiles:
+  - name: fp-kubeflow
+    selectors:
+      # All kubeflow workloads in the will be scheduled onto Fargate:
+      - namespace: knative-serving
+      - namespace: cert-manager
