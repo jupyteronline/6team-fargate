@@ -1,3 +1,3 @@
 #!/bin/bash
 
-eksctl create cluster -f cluster.yaml
+eksctl create cluster -f cluster.yaml --fargate

@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  static_email: admin@kubeflow.org
+  static_password_hash: JDJhJDEwJEVJaThsTUlUdWFpTnBFdElIRS5aVWVDWHNPR1VzZVZWZU5tZ1FmUWlVMEZCOUIzZDMvNk9P
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: dex-config
