@@ -57,6 +57,3 @@ fargateProfiles:
 cloudWatch:
  clusterLogging:
    enableTypes: ["*"]
-
-#secretsEncryption:
-#  keyARN: arn:aws:kms:ap-northeast-2:004625312447:key/9a6165b9-7ac7-4753-b459-3658cb637a09
